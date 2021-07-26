@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> FIRE </title>
+</head>
+
+<body>
+    <header class="title-header">
+        <h1 class="title-header" <strong>Contact</strong></h1>
+    </header>
+    <main>
+
+        <a href="Index.html">Home</a>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Your Age: <input type="" name="age" /></label>
+            </p>
+            <p>
+                <label>Your Date of Birth: <input type="date" name="birthday" /></label>
+            </p>
+            <p> Gender </p>
+            <input type="radio" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" value="non binary">
+            <label for="non binary">Non Binary</label>
+            </p>
+            <p>Waar wil je graag meer informatie over ontvangen:</p>
+            <input type="checkbox" name="nieuwsbrief" value="inspiratie">
+            <label for="nieuwsbrief"> Inspiratie</label><br>
+            <input type="checkbox" name="nieuwsbrief" value="Belegmogelijkheden">
+            <label for="nieuwsbrief"> Beleg mogelijkheden</label><br>
+            <input type="checkbox" name="nieuwsbrief" value="Starterskit">
+            <label for="nieuwsbrief"> Starterskit</label>
+            <p>
+                <label for="favcolor">Welke kleur wil je voor je nieuwsbrief:</label>
+                <input type="color" name="favcolor">
+            </p>
+            <p>
+                <label>Vertel iets over jezelf <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label for="myfile">Upload je resultaten:</label>
+                <input type="file" name="myfile">
+            </p>
+            <p><a href="https://www.nos.nl/">Klik hier voor meer informatie</a></p>
+            <p>
+                <button type="submit">Send</button>
+                <input type="reset">
+            </p>
+        </form>
