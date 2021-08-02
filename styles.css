@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.nav-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 102, 102);
+    height: 100px;
+    width: 100%;
+}
+.nav-header li {  
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.nav-header li a {
+    width: 25%;
+    text-decoration: none;
+    font-family: playfair display;
+    color: white;
+    font-size: 40px;
+    line-height: 100px;
+}
+.background-piggy {
+    width: 100%;
+    margin: 0;
+    background-image: url('PinkPiggyBank.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.main-title{
+    font-family: "Playfair Display";
+    color: white;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+    line-height: 100px;
+}
+.main-title2{
+    font-family: "work sans";
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-top: 0px;
+    line-height: 0px; 
+}
+.nav-footer ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 102, 102);
+    height: 200px;
+    width: 100%;
+}
+.nav-footer li {
+    display: block;
+    height: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.nav-footer li a {
+    text-decoration: none;
+    font-family: playfair display;
+    color: white;
+    font-size: 40px;
+}
+.body-waarom {
+    background-color:linen;
+    font-family: work sans;
+    font-size: 15px;
+}
+
+.main-waarom {
+    margin: 30px;
+    margin-top: 40px;
+    line-height: 35px;
+    margin-bottom: 220px;
+}
+.main-waarom h1{
+    font-size: 20px;
+}
+.img-newsletter {
+    width: 100%;
+    margin: 0;
+    background-image: url('Mailbox.jpeg');
+    background-repeat: no-repeat;
+    background-position: 79%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-news {
+    margin: 30px;
+    margin-top: 40px;
+    line-height: 35px;
+    margin-bottom: 220px;
+}
+.form {
+    font-family: Work Sans;
+    font-size: 27px;
+}

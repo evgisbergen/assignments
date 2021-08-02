@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beleggen Doe Je Zo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="img-newsletter">
+    <header>
+        <nav class="nav-header">
+            <ul>
+                <li><a href=Index.html>Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-news">
+        <h1>Blijf op de hoogte</h1>
+        <form class="form" name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Geboortedatum: <input type="date" name="birthday" /></label>
+            </p>
+            <p> Geslacht:
+                <input type="radio" name="gender" value="male">
+                <label for="male">Man</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Vrouw</label>
+                <input type="radio" name="gender" value="non binary">
+                <label for="non binary">Geen van beide</label>
+            </p>
+            <p>Waar wil je graag meer informatie over ontvangen:<br>
+                <input type="checkbox" name="nieuwsbrief" value="inspiratie">
+                <label for="inspiratie"> Inspiratie</label><br>
+                <input type="checkbox" name="nieuwsbrief2" value="Belegmogelijkheden">
+                <label for="nieuwsbrief2"> Beleg mogelijkheden</label><br>
+                <input type="checkbox" name="nieuwsbrief3" value="Starterskit">
+                <label for="nieuwsbrief3"> Starterskit</label>
+            </p>
+            <p>
+                <label>Tips voor onderwerpen in de nieuwsbrief <br>
+                    <textarea name="message"></textarea></label>
+            </p>
+            <p><button type="submit">Send</button>
+                <input type="reset">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <nav class="nav-footer">
+            <ul>
+                <li><a href="Nieuwsbrief.html" target="_blank">Nieuwsbrief</a></li>
+                <li><a href="mailto:evgisbergen@gmail.com">Contact</a></li>
+                <li><a href="https://www.beurs.nl/koersen/aex/" target="_blank">AEX</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
