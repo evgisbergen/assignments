@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.nav-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 84, 84);
+    height: 70px;
+    width: 100%;
+}
+.nav-header li {  
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+}
+.nav-header li a {
+    width: 18%;
+    text-decoration: none;
+    font-family: playfair display;
+    color: white;
+    font-size: 16px;
+    line-height: 70px;
+}
+body {
+    margin: 0px;
+}
+.background-piggy {
+    width: 100%;
+    margin: 0;
+    background-image: url('PinkPiggyBank.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.main-title {
+    font-family: "Playfair Display";
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    line-height: 50px;
+}
+.main-title2 {
+    font-family: "work sans";
+    color: black;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding-top: 0px;
+    line-height: 0px; 
+}
+.nav-footer ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199, 84, 84);
+    height: 110px;
+    width: 100%;
+}
+.nav-footer li {
+    display: block;
+    height: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.nav-footer li a {
+    text-decoration: none;
+    font-family: playfair display;
+    color: white;
+    font-size: 18px;
+}
+.body-text {
+    background-color:linen;
+    font-family: work sans;
+    font-size: 18px;
+}
+
+.main-text {
+    margin: 30px;
+    margin-top: 40px;
+    line-height: 35px;
+    margin-bottom: 220px;
+}
+
+.main-text h1 {
+    font-size: 28px;
+}
+aside {
+    border: 1px solid red;
+}
+.img-newsletter {
+    width: 100%;
+    margin: 0;
+    background-image: url('Mailbox.jpeg');
+    background-repeat: no-repeat;
+    background-position: 79%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-news {
+    margin: 30px;
+    margin-top: 40px;
+    line-height: 35px;
+    margin-bottom: 220px;
+}
+.main-news h1 {
+    font-size: 25px;
+}
+.form {
+    font-family: Work Sans;
+    font-size: 18px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    .nav-header ul {
+        height: 30px;
+    }
+    .nav-header li {
+        width: 24%;
+    }
+    .nav-header li a {
+        font-size: 25px;
+        line-height: 30px;
+        width: 25%;
+    }
+    .main-title {
+        font-size: 60px;
+        margin-top: 100px;
+        line-height: 60px;
+    }
+    .main-title2 {
+        font-size: 17px;
+        margin-top: 30px;
+    }
+    .nav-footer ul {
+        height: 100px;
+    }
+    .nav-footer li {
+        padding: 10px;
+    }
+    .nav-footer li a {
+        font-size: 19px;
+    }
+    .main-text h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .main-text h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .body-text {
+        font-size: 18px; 
+    }
+    .form {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-header ul {
+        height: 40px;
+    }
+    .nav-header li {
+        width: 24%;
+    }
+    .nav-header li a {
+        font-size: 20px;
+        line-height: 40px;
+        width: 25%;
+    }
+    .main-title {
+        font-size: 70px;
+        margin-left: 100px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        line-height: 70px;
+    }
+    .main-title2 {
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding-top: 0px;
+        line-height: 0px; 
+    }
+    .nav-footer ul {
+        height: 100px;
+    }
+    .nav-footer li {
+        padding: 10px;
+    }
+    .nav-footer li a {
+        font-size: 15px;
+    }
+    .main-text h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .main-text h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .body-text {
+        font-size: 18px; 
+    }
+    .form {
+        font-size: 18px;
+    }
+}
+
