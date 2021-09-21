@@ -1,0 +1,41 @@
+
+
+.li-default {
+    background-color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: white;
+}
+
+.btn-toggle-nav {
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    background-image: url('menuIcon.png');
+    background-size: 90%;
+    background-position: center;
+}
+
+.nav-sidebar {
+    width: 50px;
+}
+
+.nav-sidebar ul {
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+}
+
+.nav-sidebar li {
+    border: 1px solid black;
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.nav-sidebar ul li:hover{
+    background-color: grey;
+}
